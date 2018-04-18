@@ -46,3 +46,6 @@ plt.subplot(212)
 librosa.display.waveplot(recon,sr)
 plt.show()
 '''
+'''
+cysmile is fool
+'''
