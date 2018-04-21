@@ -12,7 +12,7 @@ y_list = []
 #file directory
 directory = os.listdir('data_rouen_sample')
 
-#image cutting & spectrogram
+#image cutting & melspectrogram
 for file in directory:
     os.chdir('/Users/chan/Desktop/deeplearning/data_rouen_sample')
     fileName = str(os.path.basename(file))
