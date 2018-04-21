@@ -26,7 +26,7 @@ for file in directory:
         
         librosa.display.specshow(librosa.power_to_db(S,ref=np.max))
         os.chdir('/Users/chan/Desktop/deeplearning/data_rouen_image')#directory for saving
-        plt.savefig(fileName+"_"+str(k)) #save
+        plt.savefig(fileName+"_"+str(k),bbox_inches='tight') #save
 
         
         
